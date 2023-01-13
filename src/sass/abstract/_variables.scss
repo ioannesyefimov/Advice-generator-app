@@ -1,0 +1,13 @@
+$clr-p-light-cyan: hsl(193, 38%, 86%);
+$clr-p-neon-green: hsl(150, 100%, 66%);
+
+$clr-n-grayish-blue: hsl(217, 19%, 38%);
+$clr-n-dark-grayish-blue: hsl(217, 19%, 24%);
+$clr-n-dark-blue:  hsl(218, 23%, 16%);
+
+
+$breakpoints: (
+    'medium': (min-width:600px),
+    'large': (min-width:1000px),
+    'huge': (min-width:1200px),
+);

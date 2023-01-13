@@ -1,0 +1,35 @@
+@use '../abstract/variables' as *;
+@use '../abstract/mixins' as *;
+.advice-container {
+    background-color: $clr-n-dark-grayish-blue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1.5rem 2rem 3.5rem;
+
+    margin-top: auto;
+    max-width: 33rem;
+    min-height: 30vh;
+
+
+    .flex-group {
+        color: $clr-p-neon-green;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+    }
+    .advice-text {
+        color: $clr-p-light-cyan;
+
+        
+    }
+    .devider {
+        @include respond-to(medium){
+            img {
+                content: url('/images/pattern-divider-desktop.svg');
+            }
+        }
+    }
+}
+.attribution {
+    margin-top: auto;
+    color: $clr-p-light-cyan;
+}

@@ -1,0 +1,16 @@
+body {
+    font-size: 28px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.advice-container {
+    margin: 0 auto;
+    
+    .advice {
+        font-size: clamp(0.8rem, 0.712rem + 0.376vw, 1.05rem);   
+     }
+     .advice-text {
+        font-size: 1.2rem;
+     }
+     
+}
